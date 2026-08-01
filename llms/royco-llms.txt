@@ -1,0 +1,14 @@
+# Royco
+
+## Docs
+
+- [5. Deposits and Withdrawals](https://docs.royco.org/deposits-and-withdrawals.md)
+- [9. Frequently Asked Questions](https://docs.royco.org/faq.md)
+- [4. Governance and Fees](https://docs.royco.org/governance-and-fees.md)
+- [2. How Dawn Works](https://docs.royco.org/how-dawn-works.md)
+- [10. Key Addresses](https://docs.royco.org/key-addresses.md)
+- [1. Overview](https://docs.royco.org/overview.md)
+- [6. Risk Framework](https://docs.royco.org/risk-framework.md)
+- [8. RoycoEntryPoint](https://docs.royco.org/roycoentrypoint.md)
+- [7. Security and Audits](https://docs.royco.org/security-and-audits.md)
+- [3. Vault Products](https://docs.royco.org/vault-products.md)

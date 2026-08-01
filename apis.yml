@@ -1,8 +1,28 @@
 aid: royco
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/royco.png
 name: Royco
-description: 'Royco is a company surfaced as a portfolio company of electric-capital and added to the
-  API Evangelist network as a stub for enrichment. Sector: defi. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  Royco is a decentralized finance (DeFi) protocol offering transparent, structured yield
+  markets for capital allocators. Through Royco Dawn, users allocate capital into tranched
+  yield markets - senior tranches prioritize base yield with first-loss protection, junior
+  tranches accept first loss for amplified yield - or delegate allocation to independent
+  curators via vaults, with Loop leverage and a coming secondary market and fixed-rate
+  structures. All deposits flow through the RoycoEntryPoint gateway, deployed on Ethereum
+  and Avalanche, with critical upgrades gated by 3-of-5 council approval and timelocks.
+  The protocol has undergone 5 independent audits and formal verifications (Hexens, Cantina,
+  Certora, Nethermind, Immunefi) and ships an official TypeScript SDK plus subgraphs for
+  building frontends on top of it.
 url: https://raw.githubusercontent.com/api-evangelist/royco/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Defi
+- Yield
+- Vaults
+- Ethereum
+- Avalanche
+- Blockchain
+- SDK
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +51,32 @@ maintainers:
 common:
 - type: Website
   url: https://www.royco.org/
+- type: DeveloperPortal
+  url: https://docs.royco.org/
+- type: Documentation
+  url: https://docs.royco.org/
+- type: GitHubOrganization
+  url: https://github.com/roycoprotocol
+- type: SourceCode
+  url: https://github.com/roycoprotocol/royco-sdk
+- type: Support
+  url: mailto:support@royco.org
+- type: TermsOfService
+  url: https://docs.google.com/document/d/14TcJRR-MnJOVBsT_lGOaM0mfElhE_p9tYOwvSXU9kyQ/edit?usp=sharing
+- type: PrivacyPolicy
+  url: https://docs.google.com/document/d/1WhR0K9MNIoEP90WhV7XOcvM9h6nbj-7yDviwJYKuaCU/edit?usp=sharing
+- type: Packages
+  url: packages/royco-packages.yml
+- type: SDKs
+  url: packages/royco-packages.yml
+- type: LLMsTxt
+  url: llms/royco-llms.txt
+- type: WellKnown
+  url: well-known/royco-well-known.yml
+- type: DomainSecurity
+  url: security/royco-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1

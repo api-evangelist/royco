@@ -1,0 +1,32 @@
+generated: '2026-07-21'
+method: searched
+source: live probes of Royco public hosts
+notes: >-
+  Royco is an on-chain DeFi protocol served by a static marketing site and a
+  GitBook docs host; no /.well-known discovery documents are published on either
+  host. Absence recorded below is expected and is valid data.
+hosts:
+- host: https://www.royco.org
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+- host: https://docs.royco.org
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404

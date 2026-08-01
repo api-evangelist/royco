@@ -1,0 +1,13 @@
+generated: '2026-07-21'
+method: searched
+source: https://registry.npmjs.org/royco
+packages:
+- language: typescript
+  registry: npm
+  name: royco
+  url: https://www.npmjs.com/package/royco
+  install: npm install royco
+  version: 0.10.244
+  official: true
+  description: SDK for building frontends on top of Royco Protocol (wraps the Royco Supabase client + React Query hooks).
+  repository: https://github.com/roycoprotocol/royco-sdk
