@@ -1,4 +1,16 @@
 aid: royco
+deliveryModel:
+  model: unknown
+  open_source: unknown
+  commercial: true
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - pricing
+  - repository-unlicensed
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
@@ -58,6 +70,10 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: IssueTracker
+  url: https://github.com/roycoprotocol/royco-sdk/issues
+- type: Releases
+  url: https://github.com/roycoprotocol/royco-sdk/releases
 - type: Website
   url: https://www.royco.org/
 - type: DeveloperPortal
